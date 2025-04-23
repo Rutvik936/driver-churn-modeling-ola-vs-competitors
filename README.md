@@ -14,4 +14,9 @@ This is a web-based machine learning application designed to predict and analyze
   - Prediction results
 
 ## 📁 Project Structure
+project-root/ │ ├── data/ # Additional data files (if any) ├── static/ # Static files (CSS, JS, images) ├── templates/ # HTML templates │ ├── index.html # Homepage │ ├── comparison.html # Visualization and analysis │ └── result.html # Prediction results │ ├── app4.py # Main Flask application ├── ola.csv # Ola driver dataset ├── uber.csv # Uber driver dataset ├── rapido.csv # Rapido driver dataset ├── README.md # Project documentation
+
+markdown
+Copy
+Edit
 
