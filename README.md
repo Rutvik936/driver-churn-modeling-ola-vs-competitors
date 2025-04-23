@@ -13,6 +13,21 @@ This is a web-based machine learning application designed to predict and analyze
   - Data comparison
   - Prediction results
 
+
+## ⚙️ Technologies Used
+
+- Python
+- Flask
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib, Seaborn
+- HTML, CSS
+
+## 🧠 Models Used
+
+- **Random Forest Classifier** – Ensemble model for robust prediction
+- **Gradient Boosting Classifier** – Boosted trees for improved accuracy
+
 ## 📁 Project Structure
 Project Structure:
 
@@ -35,5 +50,4 @@ driver-attrition-prediction/
 ├── uber.csv                   # Uber drivers dataset
 ├── rapido.csv                 # Rapido drivers dataset
 ├── README.md                  # Project documentation
-
 
