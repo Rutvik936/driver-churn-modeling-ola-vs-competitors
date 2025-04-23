@@ -28,6 +28,11 @@ This is a web-based machine learning application designed to predict and analyze
 - **Random Forest Classifier** – Ensemble model for robust prediction
 - **Gradient Boosting Classifier** – Boosted trees for improved accuracy
 
+**Run the Flask App**
+
+python app4.py
+Visit http://127.0.0.1:5000/ in your browser.
+
 ## 📁 Project Structure
 Project Structure:
 
