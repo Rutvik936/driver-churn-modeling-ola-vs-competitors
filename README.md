@@ -14,9 +14,26 @@ This is a web-based machine learning application designed to predict and analyze
   - Prediction results
 
 ## 📁 Project Structure
-project-root/ │ ├── data/ # Additional data files (if any) ├── static/ # Static files (CSS, JS, images) ├── templates/ # HTML templates │ ├── index.html # Homepage │ ├── comparison.html # Visualization and analysis │ └── result.html # Prediction results │ ├── app4.py # Main Flask application ├── ola.csv # Ola driver dataset ├── uber.csv # Uber driver dataset ├── rapido.csv # Rapido driver dataset ├── README.md # Project documentation
+Project Structure:
 
-markdown
-Copy
-Edit
+driver-attrition-prediction/
+│
+├── data/                      # Folder for raw/processed data (optional)
+│   ├── Ola2.csv               # Data.csv Files Used for Comparison
+│   ├── rapido.csv
+│   ├── uber.csv
+├── static/                    # Static assets like CSS or images
+│   ├── dashboardstyle.css     # css for comparison.html
+│   ├── styles.css             # css for index.html
+├── templates/                 # HTML templates for Flask
+│   ├── index.html             # Homepage
+│   ├── comparison.html        # Data comparison and visualization
+│   └── result.html            # Model prediction output
+│
+├── app4.py                    # Main Flask application file
+├── ola.csv                    # Ola drivers dataset
+├── uber.csv                   # Uber drivers dataset
+├── rapido.csv                 # Rapido drivers dataset
+├── README.md                  # Project documentation
+
 
