@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.chart-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.stats-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.platform-card {
+    flex: 1;
+    min-width: 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.platform-card h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+@media (max-width: 768px) {
+    .stats-container {
+        flex-direction: column;
+    }
+}
+
+      
+.explanation {
+    background-color: #f5f7fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #0B5AB0;
+}
+
+/* Eplanation for bar plot  */
+
+.comparison-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.reason-card {
+    flex: 1;
+    min-width: 250px;
+    background: #f2f9ff;
+    border-radius: 8px;
+    border: 1px solid #efeeee;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.reason-card h3 {
+    border-bottom: 2px solid #0B5AB0;
+    padding-bottom: 8px;
+    color: #0B5AB0;
+}
+.reason-item {
+    margin-bottom: 15px;
+}
+.reason-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.sub-reasons {
+    margin-left: 20px;
+    color: #555;
+}
+.scale {
+    margin-top: 30px;
+    text-align: center;
+    font-style: italic;
+    color: #666;
+}
+.reason-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.reason-card li {
+    margin-bottom: 10px;
+}

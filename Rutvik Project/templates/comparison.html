@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Attrition Comparison</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboardstyle.css') }}">
+    <style>
+    .about-section {
+        background-color: #282424;
+        padding: 40px;
+        margin-top: 50px;
+        text-align: center;
+        border-top: 3px solid #f4f4f4;
+        box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;  /* Smooth rounded edges */
+    }
+    
+    .about-section h2 {
+        font-weight: bold;
+        color: #007bff;
+    }
+    
+    .about-section p {
+        font-size: 18px;
+        color: #fefefe;
+        margin-bottom: 20px;
+    }
+    
+    .about-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 15px;
+    }
+    
+    .about-links a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #007bff;
+        padding: 10px 20px;
+        border: 2px solid #007bff;
+        border-radius: 25px;
+        transition: 0.3s;
+    }
+    
+    .about-links a:hover {
+        background-color: #007bff;
+        color: white;
+    }
+    /* Table Border Styling */
+.comparison-table {
+  width: 80%;
+  border-collapse: collapse; /* Ensures borders merge neatly */
+  margin: 25px 0;
+  font-size: 0.9em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin:auto;
+  border-radius: ;
+  /* Smooth rounded edges */
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #272424; 
+/* Light gray border */
+}
+
+.comparison-table th {
+  background-color: #394c60; /* Ola blue */
+  color: white;
+  border: 3px solid #0d1013; /* Slightly darker blue */
+}
+
+.comparison-table tr {
+  border-bottom: 1px solid #191010;
+}
+
+.comparison-table tr:nth-child(even) {
+  background-color: #f8f9fa; /* Alternate row coloring */
+}
+
+.comparison-table tr:hover {
+  background-color: #f1f5ff; /* Light blue hover effect */
+  transition: background-color 0.3s ease;
+}
+
+.comparison-table caption {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+    /* Card styles */
+    .card { background-color: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px; }
+    .card img { cursor: pointer; }
+    .card { height: 100%; display: flex; flex-direction: row; align-items: center; padding: 15px; }
+    .card img { width: 40%; margin-right: 15px; }
+    .card p { flex-grow: 1; }
+    
+    body { background-color: #f4f4f4; }
+    .container { margin-top: 50px; }
+    .comparison-table { background: white; padding: 20px; border-radius: 10px; border:; }
+    .chart-container { text-align: center; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <nav style="
+    background: #2f3c4a;
+    width: 100%;
+    height: 40px;  /* Compact height */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px; /* Rounded bottom edges */
+  ">
+    <!-- Logo -->
+    <div style="
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+    ">DRIVER ANALYTICS</div>
+    <!-- Navigation Links -->
+    <div style="
+      display: flex;
+      gap: 20px;
+      font-size: 1rem;
+      color: white;
+    ">
+    <a href="https://colab.research.google.com/drive/1zT-n9iUQCeAzH-Z5FLbDj_Xp98GDRX9A#scrollTo=JDxy2XmjGhq4" style="color: white;">Detailed Analysis</a>
+    <a href="#about" style="color: white; text-decoration: none;">About Us</a>
+    </div>
+  </nav>
+  
+    <div class="container">
+        <h1 class="text-center" style="text-decoration-line: underline;">📊 Driver Attrition Reasons Comparison</h1>
+
+        <table class="table table-striped comparison-table">
+        <br><h4 style="text-align: left;background: #E3F2FD;
+        border-radius:5px; display: inline-block;
+        padding: 2px 4px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);">&bull; Comparison Table of Ride-Sharing Companies :</h4><br><br>
+            <tr>
+                <th>Company</th>
+                <th>Average Rating</th>
+                <th>Average Weekly Earnings</th>
+                <th>Average Weekly Hours</th>
+                <th>Total Drivers</th>
+                <th>Attrition Rate (%)</th>
+                <th>Common Attrition Reasons</th>
+            </tr>
+            <tr>
+                <td>Rapido</td>
+                <td>4.5</td>
+                <td>₹1,200</td>
+                <td>20</td>
+                <td>50</td>
+                <td>20%</td>
+                <td>Switched to competitors, Low order volume, Weather challenges</td>
+            </tr>
+            <tr>
+                <td>Ola</td>
+                <td>4.4</td>
+                <td>₹8,000</td>
+                <td>40</td>
+                <td>50</td>
+                <td>15%</td>
+                <td>Health issues, Relocation, High fuel costs</td>
+            </tr>
+            <tr>
+                <td>Uber</td>
+                <td>4.6</td>
+                <td>₹6,500</td>
+                <td>30</td>
+                <td>50</td>
+                <td>10%</td>
+                <td>Rating pressure, Low surge pricing, High commission</td>
+            </tr>
+        </table>
+        <!-- Explanation of the table  -->
+         <br><br>
+</div>
+<h5 style="color: #2c3e50; text-align: left; ">Explanation of the Table :</h5>
+    
+<div>
+    <div style="margin-bottom: 10px; padding-left: 20px; position: relative;">
+        <span style="font-weight: bold; color: #0B5AB0;">Rapido</span> has the highest attrition rate (20%) primarily due to drivers switching to competitors and weather-related challenges.
+        <span style="position: absolute; left: 0; color: #0B5AB0; font-weight: bold;">•</span>
+    </div>
+    
+    <div style="margin-bottom: 10px; padding-left: 20px; position: relative;">
+        <span style="font-weight: bold; color: #0B5AB0;">Ola</span> shows moderate attrition (15%) with main reasons being health issues and rising fuel costs despite higher average earnings.
+        <span style="position: absolute; left: 0; color: #0B5AB0; font-weight: bold;">•</span>
+    </div>
+    
+    <div style="margin-bottom: 10px; padding-left: 20px; position: relative;">
+        <span style="font-weight: bold; color: #0B5AB0;">Uber</span> maintains the lowest attrition (10%) but faces pressure from its rating system and commission structure.
+        <span style="position: absolute; left: 0; color: #0B5AB0; font-weight: bold;">•</span>
+    </div>
+    
+    <div style="margin-bottom: 10px; padding-left: 20px; position: relative;">
+        All three companies have the same sample size of 50 drivers, making the comparison statistically balanced.
+        <span style="position: absolute; left: 0; color: #0B5AB0; font-weight: bold;">•</span>
+    </div>
+    
+    <div style="margin-bottom: 10px; padding-left: 20px; position: relative;">
+        Weekly earnings vary significantly, with Ola drivers earning nearly 7× more than Rapido drivers on average.
+        <span style="position: absolute; left: 0; color: #0B5AB0; font-weight: bold;">•</span>
+    </div>
+    
+    <div style="margin-bottom: 10px; padding-left: 20px; position: relative;">
+        Uber leads in driver satisfaction (4.6 rating) but this doesn't directly correlate with lower attrition reasons.
+        <span style="position: absolute; left: 0; color: #0B5AB0; font-weight: bold;">•</span>
+    </div>
+</div>
+
+<br><br>
+<h4 style="text-align: left;background: #E3F2FD;
+        border-radius:5px; display: inline-block;
+        padding: 2px 4px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);">&nbsp;&nbsp;&bull;  Chart for Attrition Reasons Comparison:</h4><br>
+        <div class="chart-container">
+            <img src="data:image/png;base64,{{ plot_url }}" alt="Attrition Reasons Comparison" class="img-fluid">
+        </div>
+        <!--Explanation of Barplot -->
+        <div class="comparison-container">
+            <!-- Vehicle Maintenance Section -->
+            <div class="reason-card">
+                <h3>Vehicle Maintenance</h3>
+                <div class="reason-item">
+                    <div class="reason-title">Primary Reason</div>
+                    <div>High operational costs for drivers</div>
+                </div>
+                <div class="reason-item">
+                    <div class="reason-title">Key Factors</div>
+                    <div class="sub-reasons">
+                        <div>• Frequent wear and tear</div>
+                        <div>• Expensive spare parts</div>
+                        <div>• Flexible gig alternatives available</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Health Issues Section -->
+            <div class="reason-card">
+                <h3>Health Issues</h3>
+                <div class="reason-item">
+                    <div class="reason-title">Primary Reason</div>
+                    <div>Physically demanding work conditions</div>
+                </div>
+                <div class="reason-item">
+                    <div class="reason-title">Contributing Factors</div>
+                    <div class="sub-reasons">
+                        <div>• High commission rates (20-30%)</div>
+                        <div>• Rising fuel costs</div>
+                        <div>• Lack of health benefits</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Work Conditions Section -->
+            <div class="reason-card">
+                <h3>Work Conditions</h3>
+                <div class="reason-item">
+                    <div class="reason-title">Primary Reason</div>
+                    <div>Unsustainable working hours</div>
+                </div>
+                <div class="reason-item">
+                    <div class="reason-title">Specific Issues</div>
+                    <div class="sub-reasons">
+                        <div>• Low order volume in non-peak hours</div>
+                        <div>• Inconsistent surge pricing</div>
+                        <div>• Need to work 10-12 hours daily</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="comparison-container">
+            <!-- Personal Reasons Section -->
+            <div class="reason-card">
+                <h3>Personal Reasons</h3>
+                <div class="reason-item">
+                    <div class="reason-title">Primary Reason</div>
+                    <div>Quality of life concerns</div>
+                </div>
+                <div class="reason-item">
+                    <div class="reason-title">Specific Cases</div>
+                    <div class="sub-reasons">
+                        <div>• Family commitments</div>
+                        <div>• Rating system pressure</div>
+                        <div>• Work-life imbalance</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Relocation Section -->
+            <div class="reason-card">
+                <h3>Relocation & Switching</h3>
+                <div class="reason-item">
+                    <div class="reason-title">Primary Reason</div>
+                    <div>Better opportunities elsewhere</div>
+                </div>
+                <div class="reason-item">
+                    <div class="reason-title">Common Scenarios</div>
+                    <div class="sub-reasons">
+                        <div>• Moving to different cities</div>
+                        <div>• Switching to Ola/Uber</div>
+                        <div>• Moving to delivery platforms (Swiggy/Zomato)</div>
+                        <div>• Weather-related challenges</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scale">
+            <p><span class="highlight">Scale Reference:</span> Data collected from 150 drivers (50 each from Rapido, Ola, and Uber) over 6 months.</p>
+            <p>Attrition rate scale: Low (10-20%) | Medium (20-30%) | High (30-40%)</p>
+        </div>
+        <div class="stats-container mt-4">
+            {% for platform, data in stats.items() %}
+            <div class="platform-card" style="border-left: 5px solid {{ PLATFORM_DATA[platform]['color'] }}; padding: 20px; margin-bottom: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <h2>{{ platform }}</h2>
+                <p><strong>Sample Size:</strong> {{ data.sample_size }} drivers</p>
+                <p><strong>Attrition Rate:</strong> {{ data.attrition_rate }}</p>
+                <p><strong>Top Reason:</strong> {{ data.top_reason }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    
+    <!-- Ola Explanation -->
+    <div class="explanation">
+        <h2>1. Ola Attrition Analysis</h2>
+        <p>With the <span class="highlight">lowest attrition rate at 18%</span> among the three platforms, Ola demonstrates relatively better driver retention. The primary reason for attrition is <span class="highlight">relocation</span>, suggesting that many drivers leave when moving to new cities rather than due to platform-specific issues. This could indicate that Ola provides satisfactory working conditions, but may need to improve <span class="highlight">inter-city transfer policies</span> to retain relocating drivers.</p>
+    </div>
+    
+    <!-- Uber Explanation -->
+    <div class="explanation">
+        <h2>2. Uber Attrition Analysis</h2>
+        <p>Uber shows a <span class="highlight">moderate attrition rate of 34%</span>, with <span class="highlight">rating pressure</span> being the dominant concern. This suggests that Uber's driver rating system creates significant stress for drivers, potentially leading to burnout. The platform might benefit from <span class="highlight">revising its rating algorithms</span> or providing more support for drivers facing unfair ratings. The data indicates that while Uber remains popular, its <span class="highlight">quality control mechanisms</span> may be too stringent.</p>
+    </div>
+    
+    <!-- Rapido Explanation -->
+    <div class="explanation">
+        <h2>3. Rapido Attrition Analysis</h2>
+        <p>Rapido has the <span class="highlight">highest attrition rate at 38%</span>, primarily due to <span class="highlight">low order volume</span>. This indicates that while drivers may be satisfied with the platform itself, they're leaving because they can't get enough rides to make it financially viable. Rapido should focus on <span class="highlight">increasing customer acquisition</span> and optimizing ride allocation algorithms. The data suggests Rapido's main challenge is <span class="highlight">market penetration</span> rather than driver satisfaction with platform policies.</p>
+    </div>
+
+    <!--about section-->
+        <div class="about-section" id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to analyzing driver attrition trends to provide meaningful insights and solutions. Our goal is to help transportation companies retain their workforce by identifying key factors contributing to attrition.</p>
+            <p>Learn more about major ride-sharing platforms:</p>
+            <p>
+                <a href="https://www.olacabs.com" target="_blank">Ola</a> |
+                <a href="https://www.uber.com" target="_blank">Uber</a> |
+                <a href="https://www.rapido.bike" target="_blank">Rapido</a>
+            </p>
+        </div>
+</body>
+</html>

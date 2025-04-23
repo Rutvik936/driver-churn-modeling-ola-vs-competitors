@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Attrition Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="number"], select {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+        .result {
+            background: #e9ffe9;
+            padding: 15px;
+            border: 1px solid #b2d8b2;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Driver Attrition Prediction</h1>
+        <form method="POST" action="/predict">
+            <label for="Age">Age:</label>
+            <input type="number" name="Age" required>
+
+            <label for="Income">Income:</label>
+            <input type="number" name="Income" required>
+
+            <label for="Education_Level">Education Level:</label>
+            <select name="Education_Level" required>
+                <option value="0">High School</option>
+                <option value="1">Bachelor's</option>
+                <option value="2">Master's</option>
+                <option value="3">Ph.D.</option>
+            </select>
+
+            <label for="Total_Business_Value">Total Business Value:</label>
+            <input type="number" name="Total_Business_Value" required>
+
+            <label for="Grade">Grade:</label>
+            <input type="number" name="Grade" required>
+
+            <label for="Quarterly_Rating_Change">Quarterly Rating Change (1/0):</label>
+            <input type="number" name="Quarterly_Rating_Change" min="0" max="1" required>
+
+            <label for="Income_Change">Income Change (1/0):</label>
+            <input type="number" name="Income_Change" min="0" max="1" required>
+
+            <input type="submit" value="Predict">
+        </form>
+
+        {% if result %}
+        <div class="result">
+            <h2>Prediction Result:</h2>
+            <p><strong>Random Forest Prediction:</strong> {{ result['Random Forest Prediction'] }} (Probability: {{ result['Random Forest Probability'] }})</p>
+            <p><strong>Gradient Boosting Prediction:</strong> {{ result['Gradient Boosting Prediction'] }} (Probability: {{ result['Gradient Boosting Probability'] }})</p>
+        </div>
+    {% endif %}
+    
+    </div>
+</body>
+</html>
+<!-- Compare this snippet from templates/experiment.html: -->

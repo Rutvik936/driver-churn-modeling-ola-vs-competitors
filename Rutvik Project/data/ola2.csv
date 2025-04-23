@@ -1,0 +1,101 @@
+driver_id,name,age,gender,city,tenure_months,avg_rating,weekly_rides,weekly_hours,distance_km_daily,earnings_weekly,vehicle_type,vehicle_age_years,attrition_status,attrition_reason,hourly_earnings,last_active_date
+1000,Mitesh Grewal,31,F,Delhi,27,4.5,16,65,77.9,9168,SUV,6,False,,206.56,2025-01-29
+1001,Advay Pandey,39,F,Chennai,26,4.4,34,33,96.8,6680,Bike,6,False,,178.88,2025-02-01
+1002,Raksha Palla,48,Other,Delhi,10,4.9,50,67,122.6,5037,Hatchback,6,False,,133.68,2025-02-18
+1003,Devansh Munshi,35,M,Delhi,27,3.8,19,46,133.6,8674,Sedan,0,False,,279.05,2025-03-21
+1004,Harrison Tata,35,F,Kolkata,24,4.2,21,53,177.8,11926,Sedan,2,False,,228.27,2025-02-28
+1005,Anusha Jhaveri,29,F,Kolkata,12,4.8,20,55,99.0,7809,Bike,0,False,,156.17,2025-02-15
+1006,Nilima Sarna,39,F,Mumbai,33,3.9,56,70,145.5,9845,Sedan,0,False,,140.65,2025-02-24
+1007,Adya Varkey,42,M,Delhi,31,5.0,17,61,77.5,7517,Sedan,3,True,Relocation,294.19,2024-06-16
+1008,Nidra Srivastava,52,F,Mumbai,2,4.3,22,36,191.6,8411,Sedan,4,False,,129.18,2025-01-07
+1009,Falguni Kalita,56,Other,Hyderabad,20,4.4,39,34,196.6,9923,SUV,1,True,Vehicle maintenance,184.93,2024-10-05
+1010,Amrita Walia,31,Other,Chennai,25,3.9,53,41,165.2,6924,Auto,6,False,,290.48,2025-02-25
+1011,Jagat Arya,52,Other,Hyderabad,17,5.0,56,32,169.0,5267,Auto,3,False,,157.56,2025-03-22
+1012,Karan Vaidya,44,M,Chennai,36,4.7,52,55,141.5,4641,Auto,7,False,,258.95,2025-01-04
+1013,Jeet Suresh,53,M,Kolkata,5,4.8,35,56,122.9,7380,Bike,2,False,,279.21,2025-01-02
+1014,Dominic Chaudhuri,40,F,Bangalore,12,4.3,15,33,83.8,11760,Hatchback,7,False,,143.74,2025-01-01
+1015,Ijaya Jani,44,Other,Pune,10,4.0,59,61,157.9,8327,Hatchback,1,True,Health issues,246.46,2025-02-15
+1016,Ojas Parmar,28,F,Hyderabad,23,4.7,26,33,189.1,5698,Auto,3,False,,161.55,2025-02-11
+1017,Advaith Tata,31,Other,Delhi,25,4.9,39,30,41.6,8481,Auto,7,False,,255.57,2025-01-25
+1018,Brijesh Lad,33,M,Chennai,34,4.3,24,39,146.4,6138,Hatchback,6,False,,160.04,2025-01-25
+1019,Indali Puri,39,F,Mumbai,16,4.0,60,60,104.0,9449,Sedan,7,False,,228.67,2025-02-18
+1020,Vasudha Kurian,42,M,Bangalore,2,3.9,45,34,148.6,4405,Sedan,0,False,,234.66,2025-01-28
+1021,Urishilla Chakrabarti,57,F,Bangalore,31,3.8,43,53,43.0,3603,Sedan,7,False,,273.84,2025-03-26
+1022,Daniel Malhotra,48,F,Chennai,6,4.0,15,45,71.5,10665,Auto,0,True,High fuel costs,230.3,2024-04-12
+1023,Tripti Natarajan,50,F,Chennai,18,4.1,58,51,140.3,11047,SUV,4,False,,130.91,2025-02-12
+1024,Frado Zachariah,23,M,Pune,35,4.2,42,36,183.5,11700,Hatchback,2,True,Personal reasons,291.04,2024-11-07
+1025,Girindra Balay,56,Other,Hyderabad,8,4.0,20,60,170.2,3730,Sedan,4,False,,224.33,2025-01-11
+1026,Jeet Anne,23,M,Chennai,6,4.4,24,56,174.8,9650,Auto,2,False,,138.77,2025-02-17
+1027,Matthew Sidhu,38,Other,Kolkata,16,4.0,52,33,69.1,5221,Sedan,3,False,,135.66,2025-02-08
+1028,Ishwar Dhingra,30,M,Mumbai,14,4.2,54,67,45.6,10036,Bike,4,False,,298.08,2025-03-09
+1029,Shivani Biswas,57,M,Chennai,6,4.7,43,50,96.9,10792,Bike,0,False,,258.08,2025-01-29
+1030,Chanchal Wable,50,M,Mumbai,35,4.3,52,31,83.6,10521,SUV,7,True,,141.98,2024-10-07
+1031,Hemangini Koshy,43,Other,Delhi,27,4.7,20,68,115.7,9264,Sedan,4,False,,254.79,2025-02-27
+1032,Varenya Zachariah,32,F,Chennai,11,4.7,34,37,109.0,8650,Hatchback,6,False,,293.9,2025-01-12
+1033,Chanchal Jhaveri,55,Other,Kolkata,20,5.0,36,39,113.6,6309,Sedan,1,True,Relocation,192.93,2024-06-03
+1034,Frado Sane,57,F,Chennai,17,4.7,45,67,45.4,10870,Sedan,0,False,,280.47,2025-01-08
+1035,Chandran Loyal,38,M,Hyderabad,4,4.4,22,42,91.1,11022,Auto,6,False,,286.26,2025-03-12
+1036,Om Mahal,51,F,Pune,27,4.5,34,67,44.8,4375,Hatchback,3,False,,295.01,2025-01-01
+1037,Devika Amble,31,Other,Delhi,25,4.3,29,59,101.7,11228,SUV,6,False,,181.21,2025-03-01
+1038,Zehaan Hari,53,M,Chennai,1,4.1,32,31,77.7,4284,Auto,3,False,,156.36,2025-02-24
+1039,Jackson Shah,47,Other,Chennai,1,4.8,19,56,193.9,6714,Auto,1,False,,206.03,2025-02-18
+1040,Turvi Prabhu,34,Other,Pune,20,4.0,31,58,135.1,4286,Sedan,2,False,,259.97,2025-01-20
+1041,Upadhriti Gala,45,F,Pune,12,4.6,24,60,180.3,10739,SUV,6,False,,216.42,2025-01-10
+1042,Mohammed Bhalla,41,M,Kolkata,31,5.0,31,58,57.8,11489,Sedan,0,False,,287.01,2025-01-23
+1043,Devika Bahri,42,Other,Pune,5,4.5,23,30,53.3,3743,Auto,2,False,,280.45,2025-02-21
+1044,Idika Subramaniam,50,F,Mumbai,5,5.0,41,64,99.9,10684,SUV,6,False,,270.47,2025-02-25
+1045,Vincent Lanka,35,F,Kolkata,6,4.9,18,53,169.3,4582,SUV,5,False,,203.73,2025-01-15
+1046,Kalpit Sami,54,M,Chennai,26,4.4,44,52,159.4,8006,Bike,1,False,,204.65,2025-03-11
+1047,Naksh Rout,38,F,Hyderabad,9,4.1,47,55,156.6,11712,Hatchback,2,True,High fuel costs,179.0,2025-03-26
+1048,Yochana Bobal,36,Other,Kolkata,23,3.9,26,46,160.9,9066,Hatchback,4,True,Long hours,240.27,2024-09-21
+1049,Kiaan Varughese,55,Other,Pune,34,5.0,18,33,122.8,8163,Auto,3,False,,288.67,2025-03-17
+1050,Inaya Zachariah,39,F,Hyderabad,21,4.2,46,37,48.7,8003,Hatchback,4,False,,278.26,2025-03-20
+1051,Liam Savant,27,M,Delhi,32,3.9,59,34,140.4,5345,Hatchback,0,True,Switched to competitor,260.59,2025-02-27
+1052,Omya Kapur,34,Other,Chennai,14,4.6,27,58,145.0,3914,SUV,1,False,,180.75,2025-01-24
+1053,Amaira Kibe,28,M,Chennai,14,4.6,20,61,185.7,5410,Bike,1,False,,123.2,2025-01-16
+1054,Nakul Rai,53,M,Kolkata,31,4.7,43,40,74.4,7016,SUV,2,False,,248.91,2025-03-13
+1055,Saksham Sethi,46,M,Chennai,30,4.5,22,61,82.1,10664,Sedan,0,True,Switched to competitor,190.15,2024-07-08
+1056,Ridhi Ramanathan,51,Other,Delhi,19,5.0,59,35,45.9,7911,Bike,7,False,,124.78,2025-01-01
+1057,Tanish Padmanabhan,42,Other,Pune,23,4.3,21,47,91.3,4271,SUV,4,False,,281.7,2025-01-04
+1058,Ishaan Som,35,Other,Mumbai,12,4.9,29,67,197.3,7377,Auto,2,False,,168.0,2025-01-07
+1059,Rajeshri Dara,25,F,Delhi,17,4.1,31,40,189.1,4832,Bike,6,True,,170.84,2024-08-10
+1060,Ekanta Saran,22,Other,Pune,25,4.8,36,30,131.4,4394,Bike,1,False,,224.93,2025-02-22
+1061,Jatin Sood,34,Other,Chennai,5,4.6,54,39,150.2,10598,Auto,3,True,Health issues,198.53,2024-09-29
+1062,Rayaan Khanna,50,M,Delhi,17,4.2,55,43,119.6,5824,SUV,1,True,Relocation,234.91,2024-11-02
+1063,Vyanjana Aurora,52,F,Kolkata,24,4.4,35,69,118.7,8822,SUV,6,False,,254.57,2025-03-08
+1064,Ethan Tak,48,Other,Pune,32,4.8,60,44,84.7,5423,Hatchback,5,False,,293.81,2025-02-13
+1065,Ekansh Lala,37,M,Kolkata,36,5.0,48,53,49.5,4461,Hatchback,0,False,,154.96,2025-01-04
+1066,Rachit Shetty,45,F,Hyderabad,34,4.8,56,69,43.4,11771,Bike,1,False,,285.59,2025-01-03
+1067,Aayush Parmar,51,M,Pune,21,4.2,56,46,176.1,5806,Sedan,6,False,,201.93,2025-01-01
+1068,Kamala Chadha,47,F,Kolkata,9,4.2,15,53,141.3,7780,Sedan,0,False,,166.3,2025-03-06
+1069,Yuvraj Sant,51,M,Hyderabad,25,4.8,32,39,170.2,11979,Bike,2,False,,173.94,2025-01-11
+1070,Rachita Agate,51,M,Delhi,9,4.4,43,55,78.4,11484,Hatchback,6,False,,138.86,2025-01-28
+1071,Elijah Ravi,40,F,Mumbai,13,4.3,39,54,122.3,7148,Auto,0,False,,253.4,2025-02-20
+1072,Laban Thakur,24,F,Delhi,28,4.7,36,31,159.9,9140,Bike,1,False,,175.26,2025-01-23
+1073,Aadi Sant,22,M,Delhi,35,4.9,33,32,48.6,9842,Auto,6,False,,253.16,2025-03-04
+1074,Lipika Karan,26,M,Bangalore,19,4.5,33,61,62.8,4382,Hatchback,4,True,Vehicle maintenance,266.8,2025-02-25
+1075,Advay Pandey,48,Other,Bangalore,23,3.8,28,31,182.0,10912,SUV,5,False,,163.46,2025-02-25
+1076,Varsha Kadakia,25,F,Pune,36,4.2,49,70,63.4,7905,Bike,3,False,,179.16,2025-01-29
+1077,Ekbal Mistry,55,M,Hyderabad,3,4.8,16,37,136.7,11856,Bike,2,True,High fuel costs,182.23,2024-04-16
+1078,Ekavir Mann,28,Other,Delhi,25,4.0,29,68,125.7,10208,Bike,3,True,High fuel costs,141.07,2024-09-04
+1079,Turvi Dash,52,M,Hyderabad,30,3.8,28,37,162.7,4848,SUV,5,False,,296.76,2025-02-21
+1080,Aachal Vala,33,F,Delhi,7,4.4,30,69,146.5,7295,Bike,4,False,,133.52,2025-01-18
+1081,Manan Narayanan,35,M,Kolkata,14,4.1,60,68,193.4,5729,SUV,2,True,Low earnings,261.19,2024-04-17
+1082,Ryan Sridhar,57,Other,Bangalore,6,4.4,29,63,73.4,5540,Sedan,5,False,,203.02,2025-01-16
+1083,Victor Toor,37,F,Kolkata,33,4.1,23,30,154.6,10995,Auto,5,False,,277.82,2025-02-16
+1084,Rudra Trivedi,42,Other,Pune,22,4.4,60,70,199.4,7867,Bike,7,False,,206.37,2025-03-09
+1085,Odika Rana,24,Other,Pune,30,4.6,25,34,40.2,3977,Hatchback,6,False,,146.55,2025-02-05
+1086,Karan Mohan,57,F,Bangalore,4,4.0,18,32,199.1,7086,Auto,1,False,,290.17,2025-03-07
+1087,Anirudh Balasubramanian,57,M,Bangalore,8,4.0,54,47,86.8,10597,SUV,5,False,,284.58,2025-01-12
+1088,Chanchal Sekhon,53,F,Chennai,33,4.9,42,54,104.6,8469,Hatchback,3,False,,244.39,2025-01-30
+1089,Lavanya Bhat,34,Other,Hyderabad,13,3.9,42,67,43.6,7415,SUV,4,True,Long hours,129.52,2025-03-24
+1090,Manya Lad,37,F,Bangalore,34,5.0,16,59,157.7,6310,Auto,7,False,,255.16,2025-02-10
+1091,Xavier Chaudhary,58,M,Pune,7,4.9,19,66,55.0,7739,SUV,2,True,Personal reasons,288.17,2025-01-31
+1092,Ijaya Kulkarni,26,F,Bangalore,31,4.4,27,60,197.5,3616,Bike,2,True,Low earnings,200.44,2025-03-05
+1093,Ishaan Krishna,54,F,Chennai,27,4.0,39,55,102.4,8608,SUV,1,True,Switched to competitor,269.73,2025-02-27
+1094,William Bora,52,Other,Bangalore,9,3.8,24,33,50.0,8340,Sedan,6,True,Low earnings,128.39,2024-08-27
+1095,Gauri Sen,27,Other,Mumbai,29,4.0,19,34,141.8,7052,SUV,7,False,,248.64,2025-02-14
+1096,Adweta Puri,24,Other,Pune,12,3.9,31,37,59.6,4720,Bike,0,False,,131.48,2025-01-07
+1097,Ekavir Salvi,24,Other,Mumbai,21,4.3,15,50,150.7,8672,Sedan,0,False,,130.52,2025-02-16
+1098,Ridhi Ganguly,51,Other,Delhi,36,4.3,56,32,113.3,7201,Sedan,0,False,,195.74,2025-02-05
+1099,Ayaan Sheth,27,F,Pune,23,4.0,41,33,54.0,5241,SUV,2,False,,289.84,2025-02-21

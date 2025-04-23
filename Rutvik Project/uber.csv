@@ -1,0 +1,51 @@
+driver_id,name,age,gender,city,uber_pro_tier,acceptance_rate,cancellation_rate,surge_participation,tenure_months,avg_rating,weekly_trips,weekly_hours,distance_km_daily,earnings_weekly,vehicle_type,vehicle_age_years,attrition_status,attrition_reason,hourly_earnings,last_active_date
+2000,Teerth Nagarajan,39,F,Hyderabad,Blue,68,1.1,False,20,4.7,70,47,64.9,6227,XL,0,True,,341.19,2024-08-28
+2001,Harsh Tank,32,F,Kolkata,Gold,89,4.8,False,11,4.2,29,25,88.4,8513,Premier,2,False,,339.69,2025-02-14
+2002,Omisha Thaker,42,F,Pune,None,65,9.9,True,33,4.6,66,46,165.6,12430,Go,5,False,,280.73,2025-02-19
+2003,Yagnesh Ramakrishnan,30,M,Hyderabad,Diamond,70,4.4,False,21,4.6,27,63,86.0,9823,Go,2,False,,229.14,2025-01-02
+2004,Chatresh Pant,36,F,Chennai,Gold,88,5.0,False,24,4.6,62,52,119.5,10441,Auto,0,False,,222.07,2025-01-11
+2005,Vedant Varma,41,Other,Chennai,None,84,1.8,False,19,4.8,38,48,175.6,10324,Go,1,False,,337.25,2025-02-05
+2006,Amol Chokshi,46,M,Bangalore,Blue,82,8.6,False,9,4.8,50,33,85.5,5243,Auto,1,False,,327.41,2025-03-22
+2007,Arin Wali,39,F,Pune,Gold,92,11.4,True,24,4.6,67,33,35.4,13946,Premier,4,False,,310.74,2025-03-16
+2008,Farhan Taneja,22,M,Bangalore,Blue,67,4.3,True,20,4.5,64,38,60.6,5899,XL,3,False,,285.14,2025-02-26
+2009,Oviya Narayanan,28,Other,Delhi,Gold,92,3.5,False,11,4.5,69,61,98.1,9087,Bike,4,True,Flexible gig alternatives,168.52,2024-10-11
+2010,Avni Kulkarni,21,F,Chennai,Diamond,82,10.0,True,23,4.7,48,25,105.8,10624,XL,4,False,,179.05,2025-02-28
+2011,Benjamin Raghavan,27,F,Kolkata,None,64,4.3,True,28,4.0,25,44,46.6,10807,Go,2,True,Low surge pricing,204.03,2024-08-11
+2012,Ishani Nagi,44,Other,Hyderabad,Blue,91,9.6,True,38,5.0,51,26,100.4,6269,Go,1,True,High commission,301.42,2024-11-01
+2013,Inaya Pathak,34,Other,Pune,None,81,14.8,True,31,4.5,63,62,85.1,6256,Auto,3,False,,340.41,2025-02-28
+2014,Suhani Andra,23,Other,Pune,None,66,11.9,False,21,4.9,35,35,45.7,5054,Go,4,False,,275.23,2025-02-10
+2015,Arin Bose,38,Other,Delhi,Blue,62,9.6,False,32,5.0,24,47,106.2,5112,Bike,5,True,Rating pressure,259.71,2024-04-29
+2016,Faris Naik,32,M,Bangalore,Platinum,65,11.7,True,38,4.9,49,26,54.4,6045,Go,0,True,Low surge pricing,321.39,2024-04-15
+2017,Widisha Jhaveri,22,M,Hyderabad,Gold,65,14.5,False,40,4.1,21,57,137.9,12704,XL,2,False,,204.58,2025-03-19
+2018,Chatura Chawla,23,F,Pune,Gold,94,2.1,False,37,4.6,56,42,128.9,13361,XL,5,False,,286.44,2025-03-09
+2019,Saksham Dua,54,F,Mumbai,Blue,62,14.1,False,19,4.1,23,51,122.9,14754,Auto,3,True,Rating pressure,268.38,2024-06-01
+2020,Vedant Narasimhan,52,M,Chennai,Blue,93,2.1,True,33,4.4,31,52,66.1,4868,Auto,4,False,,272.32,2025-02-11
+2021,Vanya Kar,42,F,Kolkata,Gold,80,12.9,False,4,4.6,37,32,70.5,11803,Go,1,False,,306.47,2025-02-14
+2022,Forum Loke,30,M,Kolkata,None,63,11.9,True,15,4.2,58,36,63.4,7184,Auto,4,False,,305.13,2025-01-06
+2023,Hema Mammen,37,F,Hyderabad,Blue,73,12.5,False,12,4.1,69,54,36.9,12861,Auto,2,True,Switched to Ola,199.66,2024-06-22
+2024,Darpan Butala,27,Other,Chennai,Gold,76,6.8,False,26,4.4,33,36,100.1,6246,XL,3,False,,179.41,2025-01-09
+2025,Qushi Prashad,55,M,Pune,None,80,4.1,True,14,5.0,63,62,139.4,12661,Bike,1,False,,183.81,2025-03-04
+2026,Forum Rattan,46,Other,Pune,Diamond,94,11.9,True,12,4.3,64,33,116.2,13712,Go,0,False,,279.51,2025-02-19
+2027,Faris Mahajan,52,F,Hyderabad,Platinum,62,1.1,True,19,4.7,37,65,123.1,8391,Bike,0,False,,198.63,2025-01-14
+2028,Ekiya Bir,47,M,Hyderabad,Gold,66,13.1,True,41,4.9,29,27,96.1,9433,XL,0,False,,232.37,2025-02-21
+2029,Oeshi Virk,48,Other,Mumbai,Blue,69,3.1,True,35,4.6,40,45,30.4,6981,Bike,3,True,Rating pressure,297.33,2025-01-30
+2030,Omisha Doctor,27,F,Bangalore,Blue,73,2.9,False,25,5.0,53,45,121.6,11982,Go,1,False,,244.75,2025-02-28
+2031,Jatin Patel,34,Other,Kolkata,Gold,89,6.8,False,23,4.9,70,36,73.7,9568,Go,4,False,,342.7,2025-02-27
+2032,Bhavika Chaudhry,39,F,Hyderabad,Blue,69,1.1,False,40,4.4,28,36,82.2,8615,XL,2,True,,185.52,2024-09-26
+2033,Hema Kapur,27,F,Chennai,Diamond,85,14.1,False,35,4.9,35,34,99.0,6121,Auto,2,False,,308.65,2025-02-10
+2034,Dayita Sathe,29,Other,Pune,Gold,68,6.0,True,8,4.6,52,32,116.2,9813,Premier,3,True,,315.82,2025-02-26
+2035,Aahana Bath,54,Other,Delhi,Gold,61,11.7,True,34,4.8,47,59,148.9,4805,Go,5,True,High commission,223.16,2024-07-12
+2036,Brijesh Palla,34,M,Delhi,Diamond,87,14.5,True,37,4.6,37,35,79.9,6188,Premier,2,False,,324.89,2025-02-28
+2037,Wyatt Gola,41,Other,Chennai,Blue,89,10.4,True,37,4.4,68,64,180.0,9683,Go,5,True,Rating pressure,333.19,2024-09-12
+2038,Harsh Gade,28,Other,Delhi,Platinum,75,9.1,True,29,4.2,25,58,50.9,11069,Go,1,False,,213.38,2025-03-29
+2039,Zayyan Mani,21,Other,Hyderabad,Diamond,80,11.8,False,30,4.0,22,47,119.6,8190,XL,4,True,Rating pressure,295.4,2024-09-01
+2040,Eta Rege,54,M,Chennai,Blue,73,13.0,True,24,4.7,53,28,158.2,12318,Bike,3,False,,153.72,2025-03-13
+2041,Hemang Taneja,47,F,Kolkata,None,94,11.6,False,15,4.1,27,29,119.7,7892,Auto,1,False,,199.1,2025-03-25
+2042,Falan Palla,39,F,Bangalore,None,72,10.6,False,7,4.4,70,37,78.8,13726,XL,3,True,,333.6,2025-01-26
+2043,Kala Bose,29,M,Hyderabad,Gold,73,3.9,True,21,4.5,50,41,143.9,8136,Bike,2,False,,315.94,2025-02-07
+2044,Eesha Bava,55,F,Kolkata,Blue,62,8.4,True,19,4.8,42,53,100.1,9371,Premier,3,True,Rating pressure,342.67,2024-04-29
+2045,Yagnesh Hans,53,F,Chennai,Platinum,72,11.6,False,3,4.5,67,47,138.8,10103,XL,3,False,,282.99,2025-03-10
+2046,Chakradev Buch,26,Other,Mumbai,Platinum,88,8.4,False,14,4.2,22,65,33.8,12591,Auto,2,False,,309.22,2025-03-17
+2047,Vivaan Mammen,28,M,Kolkata,None,66,7.7,False,2,4.2,32,55,57.4,12106,XL,5,True,Switched to Ola,259.09,2024-12-21
+2048,Vihaan Chana,23,M,Mumbai,Gold,71,1.9,True,3,4.2,70,32,133.7,14766,Bike,0,False,,184.41,2025-01-19
+2049,Gauri Mukherjee,25,F,Bangalore,Platinum,84,5.0,True,21,4.4,45,54,72.4,7933,Auto,0,False,,292.0,2025-02-14
