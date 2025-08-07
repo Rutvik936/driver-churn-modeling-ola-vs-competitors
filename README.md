@@ -37,8 +37,6 @@ Visit http://127.0.0.1:5000/ in your browser.
 
 A machine learning-powered web application that predicts driver churn for major ride-hailing platforms (Ola, Uber, Rapido) using Flask.
 
-![App Screenshot](static/screenshot.png) *(add screenshot path if available)*
-
 ## 📂 Project Structure
 
 ```plaintext
