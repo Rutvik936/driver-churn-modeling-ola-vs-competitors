@@ -33,26 +33,33 @@ This is a web-based machine learning application designed to predict and analyze
 python app4.py
 Visit http://127.0.0.1:5000/ in your browser.
 
-## 📁 Project Structure
-Project Structure:
+# 🚕 Driver Attrition Prediction System
 
+A machine learning-powered web application that predicts driver churn for major ride-hailing platforms (Ola, Uber, Rapido) using Flask.
+
+![App Screenshot](static/screenshot.png) *(add screenshot path if available)*
+
+## 📂 Project Structure
+
+```plaintext
 driver-attrition-prediction/
 │
-├── data/                      # Folder for raw/processed data (optional)
-│   ├── Ola2.csv               # Data.csv Files Used for Comparison
+├── data/                    # Data storage
+│   ├── Ola2.csv             # Processed datasets
 │   ├── rapido.csv
 │   ├── uber.csv
-├── static/                    # Static assets like CSS or images
-│   ├── dashboardstyle.css     # css for comparison.html
-│   ├── styles.css             # css for index.html
-├── templates/                 # HTML templates for Flask
-│   ├── index.html             # Homepage
-│   ├── comparison.html        # Data comparison and visualization
-│   └── result.html            # Model prediction output
 │
-├── app4.py                    # Main Flask application file
-├── ola.csv                    # Ola drivers dataset
-├── uber.csv                   # Uber drivers dataset
-├── rapido.csv                 # Rapido drivers dataset
-├── README.md                  # Project documentation
-
+├── static/                  # Frontend assets
+│   ├── dashboardstyle.css    # Comparison page styles
+│   ├── styles.css           # Main stylesheet
+│
+├── templates/               # Flask templates
+│   ├── index.html           # Landing page
+│   ├── comparison.html      # Platform comparison
+│   └── result.html          # Prediction results
+│
+├── app4.py                  # Flask application
+├── ola.csv                  # Raw Ola dataset
+├── uber.csv                 # Raw Uber dataset
+├── rapido.csv               # Raw Rapido dataset
+└── README.md                # Documentation
